@@ -10,7 +10,7 @@ label {
 }
 h3 {
   color: white;
-  background-color: rgb(1, 1, 201);
+  background-color: rgb(2, 190, 247);
   padding: 3px;
   border-radius: 5cap;
   text-align: center;
@@ -24,7 +24,7 @@ h4 {
 }
 button {
   margin-top: 10px;
-  background-color: blue;
+  background-color: rgb(1, 183, 255);
   color: white;
   border-radius: 1cap;
   padding: 5px;
