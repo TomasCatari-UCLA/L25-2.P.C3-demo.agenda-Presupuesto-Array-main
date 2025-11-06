@@ -14,6 +14,7 @@ export default class Cl_vAgenda extends Cl_vGeneral {
     ) as HTMLDivElement;
   }
   mostrarGruposRegistrados() {
+    
     this.divRegistro.innerHTML = "";
     let agenda = this.controlador?.Registros();
     if (!agenda) return;
