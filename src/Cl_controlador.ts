@@ -27,3 +27,6 @@ export default class Cl_controlador {
     return this.modelo.listar();
   }
 }
+
+
+// ya va
