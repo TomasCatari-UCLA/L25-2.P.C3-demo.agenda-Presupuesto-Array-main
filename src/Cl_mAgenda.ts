@@ -18,7 +18,7 @@ export default class Cl_mAgenda {
     this.agenda.push(Registro);
     callback(false);
   }
-  listar(): iRegistro[] {
+  lista(): iRegistro[] {
     let lista: iRegistro[] = [];
     this.agenda.forEach((Registro) => {
       lista.push(Registro.toJSON());

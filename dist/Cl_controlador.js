@@ -13,7 +13,7 @@ export default class Cl_controlador {
         });
     }
     Registros() {
-        return this.modelo.listar();
+        return this.modelo.lista();
     }
 }
 

@@ -24,9 +24,8 @@ export default class Cl_controlador {
     });
   }
   Registros(): iRegistro[] {
-    return this.modelo.listar();
+    return this.modelo.lista();
   }
 }
 
 
-// ya va
